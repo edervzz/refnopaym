@@ -1,0 +1,25 @@
+openapi: '3.0.3'
+info:
+  title: API Title
+  version: '1.0'
+servers:
+  - url: http://localhost:5000
+paths:
+  /test:
+    get:
+      responses:
+        '200':
+          description: OK
+  /name:
+    get:
+      description: ''
+      parameters: []        
+      responses:
+        '200':
+          description: OK
+    post:
+      description: ''
+      parameters: []
+      responses:
+        '200':
+          description: OK

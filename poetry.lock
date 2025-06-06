@@ -65,6 +65,21 @@ async = ["asgiref (>=3.2)"]
 dotenv = ["python-dotenv"]
 
 [[package]]
+name = "flask-swagger-ui"
+version = "5.21.0"
+description = "Swagger UI blueprint for Flask"
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "flask_swagger_ui-5.21.0-py3-none-any.whl", hash = "sha256:5ecff6c284d7c5559f3473bd534a31fa5dfc0022502d63f4a04728c2b10596f6"},
+    {file = "flask_swagger_ui-5.21.0.tar.gz", hash = "sha256:872d038dc11a68eacab88f6f05be3c533aa300453e273775dad3e029b31e03d4"},
+]
+
+[package.dependencies]
+flask = "*"
+
+[[package]]
 name = "itsdangerous"
 version = "2.2.0"
 description = "Safely pass data to untrusted environments and back."
@@ -186,4 +201,4 @@ watchdog = ["watchdog (>=2.3)"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.13"
-content-hash = "eb74dacd19c40b98b02a72037006d236f3806ba4a2d19f6bb5c9b7eddf104578"
+content-hash = "ddb66d9c97de43b9a580746ee14e883ec587e5e088005bf5178444032237a54f"

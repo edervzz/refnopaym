@@ -3,18 +3,17 @@ name = "refnopaym"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Your Name",email = "you@example.com"}
+    {name = "Eder Velázquez",email = "edervzz@gmail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.13"
-
+dependencies = [
+    "flask-swagger-ui (>=5.21.0,<6.0.0)"
+]
 
 [tool.poetry]
-packages = [{include = "refnopaym", from = "src"}]
+packages = [{include = "*", from = "src"}]
 
-
-[tool.poetry.dependencies]
-flask = "^3.1.1"
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
